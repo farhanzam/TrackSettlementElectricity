@@ -1,0 +1,9 @@
+program: train.py
+name: cloud9
+method: random
+metric:
+  goal: maximize
+  name: validation_accuracy
+parameters:
+  learning_rate:
+    values: [0.0001, 0.001, 0.01, 0.1]
